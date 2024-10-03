@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test page</title>
+    <style>
+        *{box-sizing: border-box;margin: 0;padding: 0;}
+        #con{
+            display: flex;
+            width: 100%;
+            height: 400px;
+            background-position: center 30%;
+            position: relative;
+            position: fixed;
+            transition: 1s;
+            overflow: hidden;
+            z-index: 99;
+            background-color: aquamarine;
+        }
+        #con b{
+            font-size: 70px;
+            display: flex;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: 1.25s;
+        }
+        #con div{
+            position: absolute;
+            bottom: 8px;
+            right: 30px;
+            margin-bottom: 10px;
+            transition: .75s;
+            height: 20px;
+        }
+        #con div a{
+            font-size: 15px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            width: 50%;
+            font-weight: 700;
+            transition: 1s;
+            margin: 0 10px;
+        }
+        #con img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 30%;
+            transition: 1s;
+        }
+
+        .d{
+            width: 100%;
+            height: 2000px;
+        }
+    </style>    
+</head>
+<body>
+    <div id="con">
+        <img src="รูปผลงาน\จิตอาสา\COlor\IMG_1394.JPG" alt="" id="img">
+        <b id="sec">P O R T F O L I O</b>
+        <div id="con_div">
+            <a href="" class="d">กิจกรรมที่เข้าร่วม</a>
+            <a href="" class="d">เข้าอบรม</a>
+            <a href="" class="d">กิจกรรมจิตอาสา</a>
+        </div>
+    </div>
+    <div>wfewfew</div>
+    <div class="d"></div>
+    <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            var sec = document.getElementById("sec");
+            var img = document.getElementById("img");
+            var con = document.getElementById("con");
+            var con_div = document.getElementById("con_div")
+            const d = document.getElementsByClassName("d");
+          if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            con.style.height = "80px";
+            con.style.alignItems = "center";
+            
+            img.style.opacity = "0";
+
+            con_div.style.right = "10%";
+            con_div.style.height = "45%";
+
+            for (let i=0 ;i<d.length;i++){
+                d[i].style.fontSize = "20px";
+            }
+            
+            sec.style.left = "30%";
+            sec.style.fontSize = "50px";
+          } else {
+            document.getElementById("con").style.height = "400px";
+            document.getElementById("img").style.opacity = "1";
+
+            for (let i=0 ;i<d.length;i++){
+                d[i].style.fontSize = "17px";
+            }
+
+            con_div.style.right = "30px";
+            con_div.style.height = "15px";
+
+            sec.style.left = "50%";
+            sec.style.fontSize = "70px";
+          }
+        }
+        </script>
+</body>
+</html>
