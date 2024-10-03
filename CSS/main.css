@@ -1,0 +1,429 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #afd6ff;
+    color: #001f40;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #001f40;
+}
+/* WHITEBOX */
+.whiteBox{
+    height: 70px;width: 100%;
+    background-color: white;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+/* CONOPEN */
+.con .conHi{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+}
+.con .conHi img{
+    position: absolute;
+    left: 47%;
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 -20%;
+}
+.con .conHi div{
+    position: absolute;
+    top: 20%;
+    right: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.con .conHi div b{
+    font-size: 70px;
+}
+.con .conHi div p{
+    font-size: 55px;
+    margin-top: -20px;
+}
+.con .conHi div p b{
+    font-size: 55px;
+    color: #005ec3;
+}
+.con .conHi div h5 {
+    font-size: 35px;
+    font-weight: normal;
+}
+.con .conHi div h5 b{
+    font-size: 35px;
+    color: #001f40;
+}
+.con .conHi div a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #001f40;
+    border: #001f40 solid 4px;
+    border-radius: 20px;
+    padding: 2px 20px;
+    width: max-content;
+    transition: .45s;
+    margin-top: 15px;
+}
+.con .conHi div a:hover{
+    background-color: #001f40;
+    color: white;
+    transition: .45s;
+}
+
+/* CONABOUTME */
+.con .conMe{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-color: #007bff;
+}
+.con .conMe b{
+    position: absolute;
+    font-size: 40px;
+    bottom: 90%;
+    color: white;
+}
+.con .conMe .box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.con .conMe img{
+    position: absolute;
+    left: 20%;
+    width: 280px;
+    height: 430px;
+    object-fit: cover;
+    object-position: 0 -25%;
+    box-shadow: rgb(185, 185, 185) 0px 0px 10px 1px;
+    background-color: rgb(178, 178, 178);
+    border-radius: 20px;
+    filter: grayscale(100%);
+    transition: 5s;
+}
+.con .conMe img:hover{
+    filter: grayscale(0);
+    box-shadow: rgb(255, 255, 255) 0px 0px 20px 4px;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+}
+.con .conMe .box div{
+    left: 53%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.con .conMe .box div span{
+    font-weight: bold;
+    color: #001f40;
+}
+.con .conMe .box div p{
+    font-size:20px;
+    color: white;
+}
+
+/* CONEDUCATION */
+.con .conEdu{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;width: 100%;
+}
+.con .conEdu h3{
+    font-size: 70px;
+    position: absolute;
+    bottom: 72.5%;
+    left: 65%;
+}
+.con .conEdu img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.con .conEdu .box{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.con .conEdu .box div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+.con .conEdu .box div b{
+    font-size: 25px;
+}
+.con .conEdu .box div p{
+    font-size: 20px;
+}
+
+/* CONSOP */
+.con .conSOP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    background-color:#005ec3;
+    width: 100%;
+    height: 250px;
+}
+.con .conSOP b{
+    font-size: 70px;
+    font-weight:bold;
+    color: white;
+}
+.con .conSOP a{
+    font-size: 30px;
+    font-weight: 700;
+    color: #001f40;
+    text-decoration: none;
+    border: 3px solid #005ec3;
+    padding: 0px 30px;
+    border-radius: 10px;
+    transition: 1.5s;
+}
+.con .conSOP a:hover{
+    color: white;
+    border: 3px solid #001f40;
+    padding: 0px 70px;
+    border-radius: 30px;
+    background-color: #001f40;
+    transition: .5s;
+}
+
+/* CONPORT */
+.con .conPort{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-image: url(../img/IMG_1394.JPG);
+    background-attachment: fixed;
+    background-position: center  30%;
+    height: 700px;
+    width: 100%;
+
+}
+.con .conPort div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.con .conPort b{
+    font-family: "Ribeye Marrow", serif;
+    font-size: 100px;
+    color: #005ec3;
+    margin-bottom: 15px;
+}
+.con .conPort a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 70px;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: .75s;
+}
+.con .conPort a:hover{
+    box-shadow: white 0 0 20px 2px;
+    /* background-color: white; */
+    transition: .75s;
+    color: white;
+}
+
+/* CONCOMMEN */
+.con .conCom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0;
+}
+.con .conCom div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.con .conCom div b{
+    font-size: 60px;
+    align-self: center;
+}
+.con .conCom div p{
+    font-size: 20px;
+    margin: 0px 0 2px 0;
+    color: rgb(160, 160, 160);
+}
+.con .conCom div form{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.con .conCom div form input[type="text"]{
+    width: 100%;
+    height: 40px;
+    resize: none;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-bottom: #81beff solid 5px;
+    background-color: rgb(248, 248, 248);
+    margin-bottom: 10px;
+    transition: 1s;
+    padding: 5px 6px;
+    color: #001f40;
+}
+.con .conCom div form input[type="text"]:focus{
+    transition: 1s;
+    border-bottom: #001f40 solid 5px;
+    outline: none;
+}
+.con .conCom div form textarea{
+    resize: none;
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    border: none;
+    border-bottom: #81beff solid 5px;
+    background-color: rgb(248, 248, 248);
+    transition: 1s;
+    padding: 5px 6px;
+    color: #001f40;
+}
+.con .conCom div form textarea:focus{
+    transition: 1s;
+    border-bottom: #001f40 solid 5px;
+    outline: none;
+}
+.con .conCom div form input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: solid 4px #001f40;
+    font-size: 20px;
+    font-weight: 700;
+    color: #001f40;
+    border-radius: 5px;
+    background-color: white;
+    transition: .5s;
+    margin-top: 20px;
+}
+.con .conCom div form input[type="submit"]:hover{
+    width: 100%;
+    height: 50px;
+    border: solid 4px #001f40;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    background-color: #001f40;
+    transition: .5s;
+}
+.con .conCom div form p{
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+}
+
+/* CONCONTACT */
+.conContact{
+    display: flex;
+    justify-content: space-around;
+    padding: 4% 2% 7% 2%;
+    background-color: #005ec3;
+}
+.conContact .box_1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.conContact .box_1 b{
+    font-size: 40px;
+    color: black;
+    font-family: "Ribeye Marrow", serif;
+}
+.conContact .box_1 .text_1{
+    margin-left: 2%;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.conContact .box_1 .text_2{
+    margin-left: 2%;
+    font-size: 15px;
+    color: black;
+}
+
+.conContact .box_2{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-top: 2%;
+}
+.conContact .box_2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin-left: 2%;
+}
+.conContact .box_2 a:hover{
+    color: white;
+    transition: .5s;
+}
+.conContact .box_2 b{
+    font-size: 30px;
+    color: black;
+}
+
+.conContact .box_3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    width: 15%;
+}
+.conContact .box_3 b{
+    font-size: 30px;
+    color: black;
+}
+.conContact .box_3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin-left: 2%;
+}
+.conContact .box_3 a:hover{
+    color: white;
+    transition: .5s;
+}
+
