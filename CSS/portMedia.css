@@ -1,0 +1,640 @@
+@media (max-width:1400px){
+    /* NAVIGATION BAR */
+    #conNavbar, #spaceNavbar{
+        height: 300px ;
+    }
+    .space{
+        height: 55px !important;
+       
+    }
+    .conNavbarHeight{
+        height: 55px !important;
+    }
+    #conNavbar #secNavbar{
+        font-size: 70px ;
+    }
+    #conNavbar .linkNavbar{
+        font-size: 23px;
+        
+    }
+    .linkNavbarFont{
+        font-size: 13px !important;
+        margin:  0 11px !important;
+    }
+
+    .mainCon .con_2 h1{
+        font-size: 50px;
+        padding-top: 50px;
+    }
+
+    /* CONTAINNER ATIVITIES */
+    .con_2 .conAti{
+        margin: 30px 0;
+    }
+    .con_2 .conAti .boxImg{
+        margin: 0 30px;
+    }
+    /* SUB ATIVITIES */
+    .conSubati{
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+    .conSubati .boxSubati{
+        width: 270px;height: 185px;
+        margin: 15px;
+        margin: 0 10px;
+    }
+    .conSubati .boxSubati b{
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    .conSubati .boxSubati p{
+        font-size: 13px;
+    }
+    
+    /* ---------- IMAGE ---------- */
+    .con_2 .conAti .boxImg img{
+        width: 300px;height: 270px;
+    }
+    .con_2 .conAti .boxImg div img{
+        width: 170px;height: 130px;
+    }
+    .con_2 .conAti .boxImg .oneImg{
+        width: 280px;height: 200px;
+    }
+    .con_2 .conAti .boxImg .oneLongimg{
+        width: 170px;height: 230px;
+    }
+    .con_2 .conAti .boxImg .twoImg{
+        width: 280px;height: 200px;
+        margin: 10px;
+    }
+    .con_2 .conAti .boxImgvol{
+        margin: 0 10px;
+    }
+    .con_2 .conAti .boxImgvol img{
+        width: 450px;height: 80px;
+        margin-top: 20px;
+    }
+    .con_2 .conAti .boxImgvol div img{
+        width: 215px;height: 140px;
+        margin: 0 10px;
+    }
+    /* ---------- TEXT ---------- */
+    .con_2 .conAti .boxText{
+        width: 300px;
+    }
+    .con_2 .conAti .boxText b{
+        font-size: 18px;
+    }
+    .con_2 .conAti .boxText p{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+}
+
+@media  (max-width:1030PX){
+    /* NAVIGATION BAR */
+    #conNavbar, #spaceNavbar{
+        height: 250px ;
+    }
+    .space{
+        height: 55px !important;
+       
+    }
+    #conNavbar #secNavbar{
+        font-size: 70px ;
+    }
+    .conNavbarHeight{
+        height: 55px !important;
+    }
+    #conNavbar #secNavbar{
+        font-size: 52px ;
+    }
+    #conNavbar .linkNavbar{
+        font-size: 17px;
+        
+    }
+    .linkNavbarFont{
+        font-size: 11px !important;
+        margin:  0 9px !important;
+    }
+
+    .mainCon .con_2 h1{
+        font-size: 45px;
+        padding-top: 30px;
+    }
+
+    /* CONTAINNER ATIVITIES */
+    .con_2 .conAti{
+        margin: 20px 0;
+    }
+    .con_2 .conAti .boxImg{
+        margin: 0 10px;
+    }
+    /* SUB ATIVITIES */
+    .conSubati{
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+    .conSubati .boxSubati{
+        width: 200px;height: 140px;
+        margin: 15px;
+        margin: 0 10px;
+    }
+    .conSubati .boxSubati b{
+        font-size: 15px;
+        margin-top: 4px;
+    }
+    .conSubati .boxSubati p{
+        font-size: 12px;
+    }
+    
+    /* ---------- IMAGE ---------- */
+    .con_2 .conAti .boxImg img{
+        width: 230px;height: 200px;
+    }
+    .con_2 .conAti .boxImg div img{
+        width: 125px;height: 90px;
+    }
+    .con_2 .conAti .boxImg .oneImg{
+        width: 210px;height: 155px;
+    }
+    .con_2 .conAti .boxImg .oneLongimg{
+        width: 140px;height: 190px;
+    }
+    .con_2 .conAti .boxImg .twoImg{
+        width: 210px;height: 155px;
+        margin: 10px;
+    }
+    .con_2 .conAti .boxImgvol{
+        margin: 0 10px;
+    }
+    .con_2 .conAti .boxImgvol img{
+        width: 350px;height: 60px;
+        margin-top: 20px;
+    }
+    .con_2 .conAti .boxImgvol div img{
+        width: 165px;height: 100px;
+        margin: 0 10px;
+    }
+    /* ---------- TEXT ---------- */
+    .con_2 .conAti .boxText{
+        width: 280px;
+    }
+    .con_2 .conAti .boxText b{
+        font-size: 15px;
+    }
+    .con_2 .conAti .boxText p{
+        font-size: 11px;
+        margin-top: 5px;
+    }
+
+    .secVol{
+        height: 90px;
+    }
+    .secVol b{
+        font-size: 45px;
+    }
+    .conCedit{
+        margin-top: 50px;
+    }
+    .conCedit .boxCedit_1{
+        width: 260px;
+    }
+    .conCedit .boxCedit_1 b{
+        font-size: 30px;
+    }
+    .conCedit .boxCedit_1 .text_1{
+        font-size: 15px;
+    }
+    .conCedit .boxCedit_1 .text_2{
+        font-size: 12px;
+    }
+    .conCedit .boxCedit_2,.boxCedit_3{
+        width: 170px;
+    }
+    .conCedit .boxCedit_2 b,.boxCedit_3 b{
+        font-size: 22px;
+    }
+    .conCedit .boxCedit_2 a,.boxCedit_3 a{
+        font-size: 13px;
+    }
+}
+@media  (max-width:770px){
+    /* NAVIGATION BAR */
+    #conNavbar, #spaceNavbar{
+        height: 200px ;
+    }
+    .space{
+        height: 150px !important;
+    }
+    .conNavbarHeight{
+        height: 55px !important;
+    }
+    #conNavbar #secNavbar{
+        font-size: 40px ;
+    }
+    #conNavbar .linkNavbar{
+        font-size: 15px;
+        margin: 0 10px
+    }
+    .secNavbarFont{
+        font-size: 25px !important;
+    }
+    .linkNavbarFont{
+        font-size: 8px !important;
+        margin:   9px !important;
+    }
+
+    .mainCon .con_2 h1{
+        font-size: 30px;
+        padding-top: 0px;
+    }
+
+    /* CONTAINNER ATIVITIES */
+    .con_2 .conAti{
+        margin: 20px 0;
+    }
+    .con_2 .conAti .boxImg{
+        margin: 0 10px;
+    }
+    /* SUB ATIVITIES */
+    .conSubati{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .conSubati .boxSubati{
+        width: 180px;height: 125px;
+        margin: 15px;
+        margin: 0 10px;
+    }
+    .conSubati .boxSubati b{
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    .conSubati .boxSubati p{
+        font-size: 11px;
+    }
+    
+    /* ---------- IMAGE ---------- */
+    .con_2 .conAti .boxImg img{
+        width: 200px;height: 170px;
+    }
+    .con_2 .conAti .boxImg div{
+        margin-left: 10px;
+    }
+    .con_2 .conAti .boxImg div img{
+        width: 105px;height: 80px;
+    }
+    .con_2 .conAti .boxImg .oneImg{
+        width: 170px;height: 120px;
+    }
+    .con_2 .conAti .boxImg .oneLongimg{
+        width: 140px;height: 190px;
+    }
+    .con_2 .conAti .boxImg .twoImg{
+        width: 170px;height: 120px;
+        margin: 10px;
+    }
+    .con_2 .conAti .boxImgvol{
+        margin: 0 10px;
+    }
+    .con_2 .conAti .boxImgvol img{
+        width: 350px;height: 60px;
+        margin-top: 20px;
+        display: none;
+    }
+    .con_2 .conAti .boxImgvol div img{
+        width: 170px;height: 120px;
+        margin: 0 10px;
+        display: block;
+    }
+    /* ---------- TEXT ---------- */
+    .con_2 .conAti .boxText{
+        margin: 0 10px;
+    }
+    .con_2 .conAti .boxText{
+        width: 280px;
+    }
+    .con_2 .conAti .boxText b{
+        font-size: 12px;
+    }
+    .con_2 .conAti .boxText p{
+        font-size: 8px;
+        margin-top: 5px;
+    }
+
+    .secVol{
+        height: 90px;
+    }
+    .secVol b{
+        font-size: 45px;
+    }
+    .conCedit{
+        margin-top: 50px;
+    }
+    .conCedit .boxCedit_1{
+        width: 260px;
+    }
+    .conCedit .boxCedit_1 b{
+        font-size: 30px;
+    }
+    .conCedit .boxCedit_1 .text_1{
+        font-size: 15px;
+    }
+    .conCedit .boxCedit_1 .text_2{
+        font-size: 12px;
+    }
+    .conCedit .boxCedit_2,.boxCedit_3{
+        width: 170px;
+    }
+    .conCedit .boxCedit_2 b,.boxCedit_3 b{
+        font-size: 22px;
+    }
+    .conCedit .boxCedit_2 a,.boxCedit_3 a{
+        font-size: 13px;
+    }
+}
+
+@media  (max-width:600px){
+    #conNavbar, #spaceNavbar{
+        height: 170px ;
+    }
+    .space{
+        height: 55px !important;
+       
+    }
+    .line{
+        display: none;
+    }
+    /* NAVIGATION BAR */
+    .conNavbarHeight{
+        height: 45px !important;
+    }
+    #conNavbar #secNavbar{
+        font-size: 30px ;
+    }
+    .secNavbarFont{
+        font-size: 20px !important;
+    }
+    #conNavbar .linkNavbar{
+        font-size: 10.5px;
+    }
+    .linkNavbarFont{
+        font-size: 9px !important;
+        margin:  0 4px !important;
+    }
+
+    .mainCon .con_2 h1{
+        font-size: 30px;
+        padding-top: 0px;
+        margin-bottom: -30px;
+    }
+
+    /* CONTAINNER ATIVITIES */
+    .con_2 .conAti{
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .con_2 .conAti .boxImg{
+        margin: 0 10px;
+    }
+    /* SUB ATIVITIES */
+    .conSubati{
+        flex-wrap: wrap;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        height: 350px;
+    }
+    .conSubati .boxSubati{
+        width: 175px;height: 120px;
+        margin: 15px;
+        margin: 5px;
+    }
+    .conSubati .boxSubati b{
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    .conSubati .boxSubati p{
+        font-size: 10px;
+    }
+    
+    /* ---------- IMAGE ---------- */
+    .con_2 .conAti .boxImg img{
+        width: 400px;height: 200px;
+    }
+    .con_2 .conAti .boxImg div img{
+        width: 90px;height: 60px;
+    }
+    .con_2 .conAti .boxImg div{
+        display: none;
+    }
+    .con_2 .conAti .boxImg .oneImg{
+        width: 300px;height: 200px;
+    }
+    .con_2 .conAti .boxImg .oneLongimg{
+        width: 120px;height: 170px;
+    }
+    .con_2 .conAti .boxImg .twoImg{
+        width: 300px;height: 200px;
+        margin: 10px;
+    }
+    .con_2 .conAti .boxImgvol{
+        margin: 0 10px;
+    }
+    .con_2 .conAti .boxImgvol img{
+        display: none;
+    }
+    .con_2 .conAti .boxImgvol div img{
+        width: 400px;height: 200px;
+        margin: 0 10px;
+        display: block;
+    }
+    .delImg{
+        display: none !important;
+    }
+    /* ---------- TEXT ---------- */
+    .con_2 .conAti .boxText{
+        width: 400px;
+        margin-top: 15px !important;
+        margin: 0 10px;
+    }
+    .con_2 .conAti .boxText b{
+        font-size: 18px;
+    }
+    .con_2 .conAti .boxText p{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+    .secVol{
+        height: 60px;
+    }
+    .secVol b{
+        font-size: 30px;
+    }
+
+    .conCedit .boxCedit_1{
+        width: 170px;
+    }
+    .conCedit .boxCedit_1 b{
+        font-size: 23px;
+    }
+    .conCedit .boxCedit_1 .text_1{
+        font-size: 12px;
+    }
+    .conCedit .boxCedit_1 .text_2{
+        font-size: 7px;
+        width: 120px;
+    }
+    .conCedit .boxCedit_2,.boxCedit_3{
+        width: 70px;
+        margin-top: 15px;
+    }
+    .conCedit .boxCedit_2 b,.boxCedit_3 b{
+        font-size: 12px;
+    }
+    .conCedit .boxCedit_2 a,.boxCedit_3 a{
+        font-size: 6px;
+    }
+}
+@media  (max-width:426px){
+    .line{
+        display: none;
+    }
+    /* NAVIGATION BAR */
+    #conNavbar, #spaceNavbar{
+        height: 150px ;
+    }
+    .space{
+        height: 40px !important;
+       
+    }
+    .conNavbarHeight{
+        height: 40Px !important;
+    }
+    #conNavbar #secNavbar{
+        font-size: 22px ;
+    }
+    .secNavbarFont{
+        font-size: 17px !important;
+    }
+    #conNavbar .linkNavbar{
+        font-size: 10.5px;
+        margin: 0 5px;
+        
+    }
+    .linkNavbarFont{
+        font-size: 7px !important;
+        margin:  0 4px !important;
+    }
+
+    .mainCon .con_2 h1{
+        font-size: 20px;
+        padding-top: 0px;
+        margin-bottom: -20px;
+    }
+
+    /* CONTAINNER ATIVITIES */
+    .con_2 .conAti{
+        margin: 30px 0;
+    }
+    .con_2 .conAti .boxImg{
+        margin: 0 10px;
+    }
+    /* SUB ATIVITIES */
+    .conSubati{
+        margin-top: 20px;
+        margin-bottom: 17px;
+    }
+    .conSubati .boxSubati{
+        width: 150px;height: 100px;
+        margin: 15px;
+        margin: 0 5px;
+    }
+    .conSubati .boxSubati b{
+        font-size: 8px;
+        margin-top: 4px;
+    }
+    .conSubati .boxSubati p{
+        font-size: 5px;
+    }
+    
+    /* ---------- IMAGE ---------- */
+    .con_2 .conAti .boxImg img{
+        width: 270px;height: 180px;
+    }
+    .con_2 .conAti .boxImg div img{
+        width: 100px;height: 70px;
+    }
+    .con_2 .conAti .boxImg div{
+        display: none;
+    }
+    .con_2 .conAti .boxImg .oneImg{
+        width: 270px;height: 180px;
+    }
+    .con_2 .conAti .boxImg .oneLongimg{
+        width: 100px;height: 140px;
+    }
+    .con_2 .conAti .boxImg .twoImg{
+        width: 230px;height: 150px;
+        margin: 10px;
+    }
+    .con_2 .conAti .boxImgvol{
+        margin: 0 10px;
+    }
+    .con_2 .conAti .boxImgvol img{
+        display: none;
+    }
+    .con_2 .conAti .boxImgvol div img{
+        width: 270px;height: 180px;
+        margin: 0 10px;
+        display: block;
+    }
+    .delImg{
+        display: none !important;
+    }
+    /* ---------- TEXT ---------- */
+    .con_2 .conAti .boxText{
+        width: 270px;
+        margin: 0 10px;
+    }
+    .con_2 .conAti .boxText b{
+        font-size: 15.5px;
+    }
+    .con_2 .conAti .boxText p{
+        font-size: 10.5px;
+        margin-top: 5px;
+    }
+
+    .secVol{
+        height: 50px;
+    }
+    .secVol b{
+        font-size: 20px;
+    }
+
+    .conCedit .boxCedit_1{
+        width: 170px;
+    }
+    .conCedit .boxCedit_1 b{
+        font-size: 23px;
+    }
+    .conCedit .boxCedit_1 .text_1{
+        font-size: 12px;
+    }
+    .conCedit .boxCedit_1 .text_2{
+        font-size: 7px;
+        width: 120px;
+    }
+    .conCedit .boxCedit_2,.boxCedit_3{
+        width: 100px;
+    }
+    .conCedit .boxCedit_2 b,.boxCedit_3 b{
+        font-size: 13px;
+    }
+    .conCedit .boxCedit_2 a,.boxCedit_3 a{
+        font-size: 8px;
+    }
+}
